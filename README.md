@@ -2,10 +2,10 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 
-# zoom-auto-close
+# close-laucher-tabs
 
-Installing this extension automatically closes tabs left open by zoom meeting application
+Installing this extension automatically closes tabs left open by applications
 
-### Chrome webstore: https://chrome.google.com/webstore/detail/zoom-auto-close/enehgndfhnlppnnfkjpapphbigmjnfjg
-### Firefox addon store: https://addons.mozilla.org/en-US/firefox/addon/zoom-auto-close/
-### Edge Addon store: https://microsoftedge.microsoft.com/addons/detail/zoom-auto-close/makanddcfijlakgmngionnipafcngkje
+### Chrome webstore: 
+### Firefox addon store: 
+### Edge Addon store:

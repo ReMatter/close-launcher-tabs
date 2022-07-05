@@ -1,34 +1,31 @@
 {
-    "manifest_version": 2,
-  
-    "name": "zoom auto close",
-    "description": "This extension automatically closes tabs left by zoom meeting application.",
-    "version": "1.0",
-    
-    "icons": {
-        "16": "icon16.png",
-        "48": "icon48.png"
-    },
-
-    "background": {
-      "scripts": [
-        "background.js"
-      ]
-    },
-
-    "content_scripts": [
-      {
-        "matches": [
-            "https://zoom.us/postattendee",
-            "https://*.zoom.us/postattendee*",
-            "https://zoom.us/j/*",
-            "https://*.zoom.us/j/*",
-            "https://zoom.us/s/*",
-            "https://*.zoom.us/s/*"
-        ],
-        "js": [
-          "content.js"
-        ]
-      }
+  "manifest_version": 2,
+  "name": "close launcher tabs",
+  "description": "Browser extension to close tabs left open by applications.",
+  "version": "1.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
     ]
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://zoom.us/postattendee",
+        "https://*.zoom.us/postattendee*",
+        "https://zoom.us/j/*",
+        "https://*.zoom.us/j/*",
+        "https://zoom.us/s/*",
+        "https://*.zoom.us/s/*",
+        "https://linear.app/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
