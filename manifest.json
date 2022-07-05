@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "close launcher tabs",
   "description": "Browser extension to close tabs left open by applications.",
   "version": "1.0",
@@ -8,9 +8,7 @@
     "48": "icon48.png"
   },
   "background": {
-    "scripts": [
-      "background.js"
-    ]
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
